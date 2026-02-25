@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ActividadLabApplication {
     @GetMapping("/saludo")
     public String saludar(){
-        return "Bienvenido a la actividad de laboratorio";
+        return "Bienvenido a la actividad";
     }
     @GetMapping("/saludos")
     public String saludar(){
