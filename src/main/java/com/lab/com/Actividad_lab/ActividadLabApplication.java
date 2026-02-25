@@ -12,7 +12,7 @@ public class ActividadLabApplication {
     }
     @GetMapping("/saludos")
     public String saludar(){
-        return "llego la hora de empezar señores";
+        return "llego la hora de empezar a programar cd/ci";
     }
 
 	public static void main(String[] args) {
