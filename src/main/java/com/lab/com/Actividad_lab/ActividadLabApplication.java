@@ -10,6 +10,11 @@ public class ActividadLabApplication {
     public String saludar(){
         return "Bienvenido a la actividad de laboratorio";
     }
+    @GetMapping("/saludos")
+    public String saludar(){
+        return "llego la hora de empezar a programar";
+    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(ActividadLabApplication.class, args);
 	}
